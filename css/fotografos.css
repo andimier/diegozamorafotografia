@@ -1,0 +1,161 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.fotografos{
+	max-width:866px; 
+	margin:80px auto; 
+	overflow:hidden;
+	/*border:1px solid #000;*/
+}
+
+
+.fotografo{	
+	float:left; 
+	width:46%; 
+	height:450px;
+	padding:2%;
+	
+	cursor:pointer; 
+	/*background-color:#999*/
+}
+	
+	
+.fotografoContent{ 
+	width:60%; 
+	height:80%;
+	padding:36px; 
+	margin:0 auto;
+	/*background-color:#00f;*/
+	/*border:1px solid #000;*/
+	
+	-webkit-border-radius: 15px;
+	-moz-border-radius:15px;
+	border-radius:15px;
+	
+	behavior: url(PIE.htc);
+}
+
+
+.fotografoContent:hover {
+	background-color:#e4e4d0
+}
+
+.fotografoContent .section{ padding:30px 0;}
+.fotografoContent h4{ margin-top:10px}
+
+
+
+.fotografoImagen{
+	position:relative;
+	width:90%; 
+	
+	margin:0 auto;
+	/*border:1px solid #000;*/
+	
+	background-repeat:no-repeat; 
+	background-position:center; 
+	overflow:hidden;
+}
+
+.fotografoImagen img{ 
+	width:100%;
+}
+
+.imgFotografo {
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+.circulo {
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+.circulo:hover{opacity:0}
+
+.marcarafoto {
+	position:absolute;
+	left:0;
+	top:0;
+}
+
+.fotografoImagen h3{ 
+	position:absolute;
+	
+	width:122px;
+	height:80px;	
+
+	margin:0 auto; 
+	top:50%;
+	left:50%;
+	margin-left:-61px;
+	margin-top:-40px;
+	
+	font-family: 'IM Fell English', serif;
+	font-style:italic;
+	font-size:26px;
+	text-align:center;
+	line-height:40px;	
+	
+}
+.fotografoBottom{margin-bottom:300px;}
+
+/* MOVIL */
+
+
+.titulos{
+	width:100%;
+	height:auto;
+	margin:40px auto;
+	/*background-color:#ff0;*/
+	
+	
+}
+
+
+.titulos h4{
+
+	font-family: 'IM Fell English', serif;
+	font-style:italic;
+	font-size:25px;
+	text-align:center;
+	color:999;
+
+}
+
+
+.separador_gota{
+	width:128px;
+	height:20px;
+	margin:10px auto;
+	padding:10px 0 0px 0;
+	background-image:url(../img/gota_up.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

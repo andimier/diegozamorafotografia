@@ -1,0 +1,47 @@
+#logo2{
+	position:relative;
+	width:85%;
+	height:80px;
+	margin:20px auto 0 auto;
+	
+}
+
+.tt_principal1{ 
+	
+	padding:20px 20px 20px 20px;
+	font-size:20px;
+
+}
+
+.tt_principal1 h2 {
+	font-size:35px;
+}
+
+.tt_principal2{ 
+	padding:0px 20px 20px 20px;
+}
+
+.tt_principal2 h2{ 
+	font-size:35px;
+
+}
+
+
+.gota2{
+	width:100px;
+	height:20px;
+	margin:10px auto 0 auto;
+}
+
+.camIcon{
+	width:60px;
+	margin:0 auto;
+
+ }
+
+ #cnt_redes{ 
+	clear:both;
+	width:132px; 
+	height:60px;
+	margin:10px auto 0 auto;
+}

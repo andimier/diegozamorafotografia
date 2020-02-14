@@ -1,0 +1,512 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#centro{
+	position:absolute;
+	width:700px;
+	height:auto;
+	top:50%;
+	left:50%;
+	margin-left:-350px;
+}
+
+
+#logo{
+	position:relative;
+	width:100%;
+	height:130px;
+	margin:auto;
+	background-image:url('../img/logof.png');
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+.camara{
+	clear:both;
+	width:74px; 
+	height:181px;
+	margin:70px auto 0 auto;
+	padding:0 0 10px 0;
+	
+	background-image:url('../img/cam1.png');
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+.camara img{ width:100%;}
+
+
+.gota{
+	width:128px;
+	height:20px;
+	margin:20px auto 0 auto;
+
+	background-image:url('../img/gota_up.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+
+#btn_diego{
+	width:110px;
+	height:110px;
+	
+	margin:50px auto 0 auto;
+	background-image:url('../img/diego.png');
+	background-size:100%;
+	background-repeat:no-repeat;
+}
+
+
+
+
+#quienesSomos{ 
+	
+	width:96%;
+	padding:10px 2% 10px 2%;
+	margin-top:50px; 
+	/*background-color:#f00;*/
+}
+
+
+#quienesSomos h2{
+	
+	font-size:55px;
+	
+}
+
+
+#quienesSomos p {
+	max-width:680px; 
+	margin:20px auto;
+	padding:0 10px 0 10px;
+	
+	font-family:Arial;
+	text-align:center;
+	font-size:15px;
+	
+}
+
+
+
+
+
+/*  ======== EQUIPO ==============*/
+
+
+#cnt_equipo{
+	position:relative;
+	width:100%;
+	margin:80px auto;
+	padding:0;
+	/*border:1px solid #000;*/
+	/*background-color:#ff0;*/
+	z-index:1000;
+}
+
+#equipo{  
+	max-width:380px; 
+	margin:0 auto;
+	/*background-color:#F00;*/
+}
+
+#equipo h2{
+	font-size:55px;
+}
+
+#equipoBtnContainer{
+	width:100%; 
+	margin-top:55px; 
+	overflow:hidden;
+}
+/*
+.equipoBtn{
+	width:112px; 
+	float:left;
+	cursor:pointer;
+}
+*/
+.equipoBtn{
+	width:112px; 
+	margin:0 auto;
+	cursor:pointer;
+}
+
+
+.equipoBtn:hover {opacity:.7}
+.equipoBtn img{width:100%;}
+.equipoCenter{ margin:0 22px;}
+
+
+
+
+/* =========== MAPAS ==============*/
+
+
+
+#cnt_mapas{ 
+	width:140px; 
+	margin:62px auto; 
+	overflow:hidden;
+	/*background-color:#ff0*/
+}
+
+.mapas{
+	width:100px;
+	margin:auto;
+}
+
+.mapas h4{
+	font-size:25px;
+	font-style:italic;
+	color:#999;
+	text-align:center;
+	padding:10px 0 0 0;
+}
+
+
+.mapa1{
+	width:70px;
+	height:70px;
+	margin:0 auto;
+	padding-bottom:5px;
+	
+	/*background-color:#999;*/
+	background-image:url(../img/map-col-gray.png);
+	background-repeat:no-repeat;
+	background-size:100%;
+	
+}
+
+
+
+/*=======  TARJETAS ===============*/
+
+#nata{ 
+	visibility:hidden;
+	position:absolute;
+	width:80%; 
+	height:350px;
+	top:0px;
+	
+	background-color:#669999;
+}
+
+
+
+#diego{ 
+	
+	position:absolute;
+	width:80%; 
+	height:350px;
+	top:60px;
+	
+	background-color:#CAD13C;
+}
+
+
+#jerome{ 
+	visibility:hidden;
+	position:absolute;
+	width:80%; 
+	height:350px;
+	top:120px;
+	left:0;
+	
+	background-color:#88B8A4;
+}
+
+
+
+.huecosFilm{ 
+	width:100%; 
+	height:35px; 
+	background-image:url(../img/mov_square.png); 
+	background-repeat:repeat-x;
+}
+
+.cnt_info{
+	position:relative;
+	width:100%;
+	height:280px;
+	/*background-color:#999*/
+}
+
+.cnt_info h2{
+	font-size:45px;
+}
+
+
+
+.tt_integrante{ 
+	width:100%; 
+	padding:10px 10px 10px 10px;
+	margin-top:0px;
+}
+
+
+.texto{
+	
+	
+	width:70%;
+	height:auto;
+	margin:0 auto;
+	padding:10px 10px 10px 10px;
+	/*border:1px solid #000;*/
+	color:#fff;
+	font-size:15px;
+	/*background-color:#f00;*/
+	
+}
+
+
+#mapa1 {
+	position:absolute;
+	width:120px;
+	height:120px;
+	
+	
+	top:0;
+	left:0;
+	
+	/*background-color:#f00;*/
+	background-image:url(../img/colombia.png);
+	background-repeat:no-repeat;
+	background-size:90%;
+	background-position:40% 40%;
+}
+
+
+
+#mapa2 {
+	position:absolute;
+	
+	width:85px;
+	height:85px;
+	padding:0 0 0 10px;
+	
+	top:0px;
+	left:0px;
+	
+	background-image:url(../img/francia.png);
+	background-repeat:no-repeat;
+	background-size:90%;
+	background-position:40% 40%;
+	
+	/*background-color:#f00*/
+}
+
+
+.botonCerrar {
+	position:absolute;
+	width:80px;
+	height:80px;
+	
+	top:0px;
+	right:30px;
+	
+	/*border:1px solid #fff;*/
+
+	background-image:url(../img/btn-cerrar.png);
+	background-repeat:no-repeat;
+	background-size:50%;
+	background-position:50% 50%;
+	cursor:pointer;
+	
+	/*background-color:#f00*/
+}
+
+
+.pestana {
+	position:absolute;
+	width:15px;
+	height:90px;
+	top:0;
+	right:-15px;
+	/*margin-top:-45px;*/
+	
+	cursor:pointer;
+}
+
+
+
+
+
+.cnt_info p{
+	width:80%; 
+	margin:20px auto; 
+	
+	height:270px;
+	font-family:Arial;
+	font-size:15px;
+}
+/* MOVIL */
+
+
+
+
+/*===========  FORMULARIO ===============*/
+
+
+input[type="text"] {
+	float: left;
+	padding: 10px 2%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #ccc;
+	width: 60%;
+}
+
+
+input[type="submit"] {
+	float:left;
+	border:0;
+	padding:0;
+	height:0px;
+	color:#fff;
+	
+	cursor:pointer;
+}
+
+textarea {
+	float: left;
+	width: 60%;
+	height: 120px;
+	
+	padding: 10px 2%;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #ccc;
+	
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	
+	resize:none;
+}
+
+
+#enviarcontacto {
+	width:70px;
+	height:70px;
+}
+
+#enviarcontacto:hover{
+	background-color:#999;
+}
+
+textarea {
+	
+}
+
+textarea:focus, input:focus {
+	border: 2px solid #669999;
+	
+}
+
+
+
+label {
+	float: left;
+	text-align:right;
+	margin-right:2%;
+	width: 20%;
+	padding:10px 0;
+	
+	font-size: 1.4em;	
+	font-family: 'IM Fell English', serif;
+	font-style:italic;
+	color:#ddd;
+	/*background-color:#00f*/
+}
+
+
+#contacto{
+	position:relative;
+	max-width:600px; 
+	height:600px;
+	margin:160px auto; 
+	padding:20px 20px 20px 20px;
+	/*border:1px solid #f00;*/
+	
+}
+
+#contacto_telefono{ 
+	position:absolute; 
+	width:80px;
+	height:80px;
+	left:50%; 
+	top:-40px; 
+	margin-left:-40px; 
+	z-index:150; 
+}
+
+
+
+#contacto_info{ 
+	width:100%;
+	height:100%;
+	margin:0 auto;
+	
+	background-color:#666;
+}
+
+#contacto_info p {
+	width:60%;
+	margin:0 auto;
+	padding:50px 10px 10px 10px;
+	
+	text-align:center;
+	
+	color:#eee;
+	font-style:italic;
+	font-size:22px;
+	font-weight: 100; 
+}
+
+#contacto_info h4{ 
+	width:320px;
+	height:50px;	
+	margin:0 auto;
+	color:#fff;
+}
+
+#formulario{ 
+	overflow:hidden; 
+	margin-top:20px;
+	/*background-color:#f00*/
+}
+
+#enviar_contacto{
+	width:100px;
+	height:50px;
+	font-size: 1.2em;	
+	font-family: 'IM Fell English', serif;
+	font-style:italic;
+	color:#fff;
+	background-color:#88B8A4;
+	cursor:pointer;
+}
+
+#enviar_contacto:hover{
+	
+	background-color:#669999;
+}
+
+#andimier-inicio{
+
+	width:100%;
+	height:50px;
+	margin-top:30px;
+	background-color:#fff;
+	
+}
+
+#logo-andimier{
+	width:70px;
+	margin:auto;
+	opacity:.7;
+}
+
+#logo-andimier:hover{
+	opacity:1;
+}

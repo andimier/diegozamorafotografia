@@ -1,0 +1,50 @@
+[20-Jan-2020 14:28:02 America/Bogota] PHP Warning:  require_once(../requeridos/phpcontacto.php): failed to open stream: No such file or directory in /home/diegozam/public_html/requeridos/contacto.php on line 20
+[20-Jan-2020 14:28:02 America/Bogota] PHP Fatal error:  require_once(): Failed opening required '../requeridos/phpcontacto.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/diegozam/public_html/requeridos/contacto.php on line 20
+[20-Jan-2020 14:28:03 America/Bogota] PHP Warning:  require_once(../requeridos/phpcontacto.php): failed to open stream: No such file or directory in /home/diegozam/public_html/requeridos/contacto.php on line 20
+[20-Jan-2020 14:28:03 America/Bogota] PHP Fatal error:  require_once(): Failed opening required '../requeridos/phpcontacto.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/diegozam/public_html/requeridos/contacto.php on line 20
+[20-Jan-2020 14:28:04 America/Bogota] PHP Warning:  require_once(../requeridos/phpcontacto.php): failed to open stream: No such file or directory in /home/diegozam/public_html/requeridos/contacto.php on line 20
+[20-Jan-2020 14:28:04 America/Bogota] PHP Fatal error:  require_once(): Failed opening required '../requeridos/phpcontacto.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/diegozam/public_html/requeridos/contacto.php on line 20
+[20-Jan-2020 14:28:06 America/Bogota] PHP Warning:  require_once(../requeridos/phpcontacto.php): failed to open stream: No such file or directory in /home/diegozam/public_html/requeridos/contacto.php on line 20
+[20-Jan-2020 14:28:06 America/Bogota] PHP Fatal error:  require_once(): Failed opening required '../requeridos/phpcontacto.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/diegozam/public_html/requeridos/contacto.php on line 20
+[20-Jan-2020 20:16:41 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/diegozam/public_html/cms/includes/functions.php:34
+Stack trace:
+#0 /home/diegozam/public_html/cms/includes/functions.php(237): todas_las_secciones()
+#1 /home/diegozam/public_html/cms/includes/navegacion.php(26): navegacion(NULL, NULL)
+#2 /home/diegozam/public_html/cms/inicio.php(30): include_once('/home/diegozam/...')
+#3 {main}
+  thrown in /home/diegozam/public_html/cms/includes/functions.php on line 34
+[20-Jan-2020 21:57:03 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:57:03 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:57:03 America/Bogota] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:57:03 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/diegozam/public_html/cms/editar-contenido.php:1) in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:57:12 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:57:12 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:57:12 America/Bogota] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:57:12 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/diegozam/public_html/cms/editar-contenido.php:1) in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:58:56 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:58:56 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:58:56 America/Bogota] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:58:56 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/diegozam/public_html/cms/editar-contenido.php:1) in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:59:01 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:59:01 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:59:01 America/Bogota] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 21:59:01 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/diegozam/public_html/cms/editar-contenido.php:1) in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 22:02:35 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 22:02:35 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 22:02:35 America/Bogota] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 22:02:35 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/diegozam/public_html/cms/editar-contenido.php:1) in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 22:02:37 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 22:02:37 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 22:02:37 America/Bogota] PHP Warning:  session_destroy(): Trying to destroy uninitialized session in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 22:02:37 America/Bogota] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/diegozam/public_html/cms/editar-contenido.php:1) in /home/diegozam/public_html/cms/includes/sesion.php on line 1
+[20-Jan-2020 22:03:32 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/session.php on line 5
+[20-Jan-2020 22:04:02 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/session.php on line 5
+[20-Jan-2020 22:04:10 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/session.php on line 5
+[20-Jan-2020 22:04:14 America/Bogota] PHP Warning:  session_start(): Cannot start session when headers already sent in /home/diegozam/public_html/cms/includes/session.php on line 5
+[20-Jan-2020 22:05:13 America/Bogota] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/diegozam/public_html/cms/edicion/eliminar-contenidos.php:25
+Stack trace:
+#0 /home/diegozam/public_html/cms/edicion/eliminar-contenidos.php(82): borrarImagenesAlbum('3')
+#1 {main}
+  thrown in /home/diegozam/public_html/cms/edicion/eliminar-contenidos.php on line 25
+[20-Jan-2020 22:11:26 America/Bogota] PHP Warning:  require_once(includes/functions.php): failed to open stream: No such file or directory in /home/diegozam/public_html/cms/includes/session.php on line 2
+[20-Jan-2020 22:11:26 America/Bogota] PHP Fatal error:  require_once(): Failed opening required 'includes/functions.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/diegozam/public_html/cms/includes/session.php on line 2

@@ -1,0 +1,154 @@
+/*FORMULARIO*/
+
+
+input[type="text"], textarea {
+	float: left;
+	padding: 10px 2%;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	margin: 0px 0px 10px 0px;
+	border: 1px solid #ccc;
+	width: 60%;
+}
+
+input[type="radio"], input[type="checkbox"] {
+	display:inline !important; 
+	width:15px!important; 
+	margin-left:15px!important; 
+	margin-right:15px!important;
+}
+
+input[type="submit"] {
+	float:left;
+	border:0;
+	padding:0;
+	height:40px;
+	color:#fff;
+	background-color:#88B8A4;
+	cursor:pointer;
+}
+
+#enviarcontacto {
+	width:70px;
+	height:70px;
+}
+
+#enviarcontacto:hover{
+	background-color:#999;
+}
+
+textarea {
+	height: 120px;
+}
+
+textarea:focus, input:focus {
+	border: 1px solid #900;
+	
+}
+
+input.submit-button {
+	width: 100px;
+	}
+
+label {
+	float: left;
+	text-align:right;
+	margin-right:2%;
+	width: 20%;
+	padding:10px 0;
+	font-size: 1.4em;	
+	/*background-color:#00f*/
+}
+
+
+
+.guarda_bnt{
+	text-decoration: none;
+	font-weight:400;
+	line-height:100%;
+	font-size:20pt;
+	height:50px;
+	color:#FFF;
+	cursor:pointer;
+	background-image:url(../img/formularios/enviar_btn.png);
+	background-position:center;
+	border:none;
+	max-width:472px!important;
+	margin:5px auto !important;
+	}
+	
+.cancela_bnt{
+	text-decoration: none;
+	font-weight:400;
+	line-height:100%;
+	font-size:20pt;
+	height:50px;
+	color:#FFF;
+	cursor:pointer;
+	background-image:url(../img/formularios/cancelar_btn.png);
+	background-position:center;
+	border:none;
+	max-width:472px!important;
+	margin:5px auto !important;
+	}
+	
+.add_bnt{
+	text-decoration: none;
+	width:50px!important; 
+	display:inline; 
+	background:url(../img/iconos/add.png); 
+	background-position:center; 
+	padding:10px!important;
+	height:38px;
+	cursor:pointer;
+}
+	
+	
+.campo_add{
+	width:420px!important;
+	display:inline;
+}
+
+
+.anade_bnt{
+	text-decoration: none;
+	font-weight:400;
+	line-height:100%;
+	font-size:20pt;
+	height:50px;
+	color:#666;
+	cursor:pointer;
+	background-image:url(../img/formularios/anadir_btn.png);
+	background-position:center;
+	border:none;
+	}
+	
+select{
+    -webkit-appearance: button;
+    -webkit-border-radius: 2px;
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
+    -webkit-padding-end: 20px;
+    -webkit-padding-start: 2px;
+    -webkit-user-select: none;
+    background-image: url(../img/formularios/down_arrow_select.jpg), 
+      -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
+    background-position: center right;
+    background-repeat: no-repeat;
+    border: 1px solid #AAA;
+    color: #555;
+    font-size: inherit;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom:20px;
+    overflow: hidden;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display:block;
+	max-width:472px!important;
+	width: 90%;
+	height:35px;
+ }
+	/*CHECKBOX*/
+

@@ -1,0 +1,33 @@
+
+#cnt_info{ 
+	max-width:960px;
+	margin:00px auto; 
+	margin-bottom:100px; 
+	overflow:hidden;
+	/*background-color:#F00*/
+ }
+
+
+.info{ 
+	
+	float:none;
+	width:85%; 
+	margin:0 auto;
+}
+
+
+#texto{
+	width:100%; 
+	margin:0 auto; 
+	padding:40px;
+
+	border-left:none;
+}
+
+#texto p{
+	width:100%;
+	
+	font-size:15px;
+	text-align:center;
+	
+}

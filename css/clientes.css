@@ -1,0 +1,40 @@
+@charset "UTF-8";
+/* CSS Document */
+#wrap{ position:relative;}
+
+
+#clientes{ 
+	max-width:1000px; 
+	padding:20px 20px 20px 20px;
+	margin:100px auto;
+	/*background-color:#ff0;*/
+}
+
+
+
+.cliente {
+	float:left;
+	padding:5px 35px 5px 35px;
+	/*background-color:#ff0;*/
+	margin-top:10px;
+	font-family: 'denseregular', sans-serif; 
+	font-size:80px;
+	text-transform:uppercase;
+	color:#999;
+}
+
+.linea{
+	border-left:3px solid #669999;
+	border-right:0;
+}
+
+
+
+
+/* MOVIL */
+
+
+
+
+
+

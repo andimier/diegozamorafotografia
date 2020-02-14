@@ -1,0 +1,104 @@
+
+
+#menu{
+	position:fixed;
+	width:100%;
+	top:100px;
+	background-color:#CAD13C;
+	z-index:1000;
+}
+
+
+#cnt_enlaces{
+	width:100%;
+	height:100%;
+	
+	position:relative;
+	margin:0 auto;
+	/*background-color:#f00;*/
+	opacity:1
+}	
+
+
+#enlaces{
+	width:500px; 
+	padding:15px 0 0 0;
+	margin:0 auto; 
+	overflow:hidden;
+	/*background-color:#000;*/
+}
+
+.hMenuItem a{ 
+	float:left; 
+	padding:0px 10px 0px 10px; 
+	font-family: 'denseregular', sans-serif; 
+	font-size:40px; 
+	color:#FFF;
+}
+
+
+.hMenuItem a:hover {color:#666}
+
+#pestana{ 
+	position:absolute;
+	width:140px; 
+	height:47px; 
+	top:100%;
+	left:70%;
+	margin-left:-70px;
+	
+	background-image:url(../img/pestana.png); 
+	background-repeat:no-repeat;
+	background-position:0 0;
+	background-size:100%;
+	cursor:pointer;
+}
+
+#pestana p{ 
+	text-align:center; 
+	color:#fff; 
+	padding-top:5px;
+	font-family: 'denseregular', sans-serif; 
+	font-size:30px;
+}
+
+#pestana img{width:100%;}
+
+
+
+#btn_subir{
+	position:fixed;
+	visibility:hidden;
+	width:40px;
+	height:40px;
+	top:90%;
+	right:50px;
+	/*background-color:#CAD13C;*/
+	cursor:pointer;
+	background-image:url(../img/arriba.png); 
+	background-repeat:no-repeat;
+	background-size:100%;
+	background-position:0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

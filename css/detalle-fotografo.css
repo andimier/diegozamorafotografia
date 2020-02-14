@@ -1,0 +1,69 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#titulo{margin-bottom:80px;}
+
+#tituloFotografo{ width:120px; margin:0 auto;}
+
+
+#cnt_info{ 
+	max-width:960px;
+	margin:50px auto; 
+	margin-bottom:100px; 
+	overflow:hidden;
+	/*background-color:#F00*/
+ }
+ 
+.info{ 
+	
+	float:left;
+	width:50%; 
+}
+
+.info h3 {
+	width:100%;
+	font-family: 'denseregular', sans-serif; 
+	font-size:45px;
+	text-align:center;
+}
+
+
+
+#imagen{ 
+	position:relative;
+	width:50%; 
+	margin:40px auto; 
+}
+
+#imagen img{ 
+	width:100%; 
+}
+
+#texto{
+	width:100%; 
+	margin:0 auto; 
+	padding:40px;
+	
+	/*background-color:#f55;*/
+	border-left:1px solid #999;
+}
+
+#texto p{
+	width:90%;
+	margi:0 auto;
+	font-family:Arial;
+	font-size:15px;
+	text-align:left;
+	color:#999;
+}
+
+
+
+/* MOVIL */
+
+
+
+
+
+
+

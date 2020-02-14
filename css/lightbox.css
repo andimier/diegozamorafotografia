@@ -1,0 +1,44 @@
+/*SETTINGS GENERALES*/
+@charset "utf-8";
+/* CSS Document */
+#lightbox{
+display:none; background:#000000; opacity:0.9; filter:alpha(opacity=90); position:absolute; top:0px; left:0px; min-width:100%; z-index:110; height:100%;cursor:pointer;
+				}
+	#lightbox-panel{
+		position:fixed;
+		background:#FFF;
+		z-index:120;
+		}
+	#lightbox-content{
+		height:100%;
+		overflow-y: auto;
+		}
+/*Imagenes en lightbox*/
+	#lightimg{
+		width:900px;
+		margin:0 auto;
+		padding:0px;
+		z-index:105;
+		}
+	#flecha_izq{
+		position:absolute;
+		top:50%;
+		margin-top:-64px;
+		left:0;
+		background-image:url(../img/componentes/flecha_izq.png);
+		z-index:120;
+		width:88px;
+		height:128px;
+		cursor:pointer;
+		}
+		#flecha_der{
+		position:absolute;
+		top:50%;
+		margin-top:-64px;
+		right:0;
+		background-image:url(../img/componentes/flecha_der.png);
+		z-index:130;
+		width:88px;
+		height:128px;
+		cursor:pointer;
+		}

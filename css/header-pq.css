@@ -1,0 +1,23 @@
+#header{
+	position:relative;
+	width:100%;
+	height:100px;
+	margin:0 0 0 0;
+	
+}	
+
+#cnt_idiomas{ 
+	width:60px; 
+	height:60px;
+	top:30px;
+	right:20px;
+}
+
+
+#telefono{
+	width:62px; 
+	height:80px;
+	top:30px;
+	left:20px
+}
+
